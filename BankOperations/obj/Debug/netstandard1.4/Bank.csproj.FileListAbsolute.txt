@@ -1,0 +1,8 @@
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\bin\Debug\netstandard1.4\Bank.deps.json
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\bin\Debug\netstandard1.4\Bank.dll
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\bin\Debug\netstandard1.4\Bank.pdb
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\obj\Debug\netstandard1.4\Bank.csprojResolveAssemblyReference.cache
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\obj\Debug\netstandard1.4\Bank.csproj.CoreCompileInputs.cache
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\obj\Debug\netstandard1.4\Bank.AssemblyInfo.cs
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\obj\Debug\netstandard1.4\Bank.dll
+C:\Users\Achilles\Desktop\VS projects\BankOperations\BankOperations\obj\Debug\netstandard1.4\Bank.pdb
