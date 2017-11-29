@@ -38,10 +38,23 @@ namespace Bank
                             transaction.Amount + "', '" + transaction.Id + "', '" + transaction.Date + "') where sortcode = '" 
                             + transaction.Payee.SortCode + "' and accountnumber = '" 
                             + transaction.Payer.AccountNumber + "'");
+
                         using (connection)
                         {
                             issuePaymentToPayee.ExecuteNonQuery();
                         }
+
+                        var deductPaymentFromPayer = new SqlCommand(
+                                "insert into Bank.Accounts (amountinaccount, transactionid, date) values ('" + (Convert.ToDouble(amountInPayee) -
+                                transaction.Amount) + "', '" + transaction.Id + "', '" + transaction.Date + "') where sortcode = '"
+                                + transaction.Payee.SortCode + "' and accountnumber = '"
+                                + transaction.Payer.AccountNumber + "'");
+
+                        using (connection)
+                        {
+                            deductPaymentFromPayer.ExecuteNonQuery();
+                        }
+
                     }
                     else
                     {
